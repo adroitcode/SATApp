@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SATApp</string>
+    <string name="learn_name">Learn Vocab</string>
+    <string name="prac_name">Practice Vocab</string>
+    <string name="word">Word</string>
+    <string name="def">Def</string>
+    <string name="pron">Pron</string>
+    <string name="index">1/60</string>
+    <string name="lol">test @string</string>
+    <string name="option1">Option 1</string>
+    <string name="option2">Option 2</string>
+    <string name="option3">Option 3</string>
+    <string name="option4">Option 4</string>
+</resources>

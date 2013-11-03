@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="facebook">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/facebook/facebook-facebook-android-sdk-525f851/Facebook.apk!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/facebook/facebook-facebook-android-sdk-525f851/facebook/src" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+    <TextView
+        android:id="@+id/word_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/space"
+        android:layout_alignParentLeft="true"
+        android:text="@string/word"
+    />
+    <TextView
+        android:id="@+id/pron_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/word_view"
+        android:layout_alignParentLeft="true"
+        android:text="@string/pron"
+    />
+    <TextView
+        android:id="@+id/index_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/space"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:text="@string/index"
+    />
+    <TextView
+        android:id="@+id/def_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pron_view"
+        android:text="@string/def"
+    />
+
+    <RelativeLayout
+            android:id="@+id/InnerRelativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/space"
+            android:text="Back"
+            android:onClick="changeWord"
+         />
+        <TextView
+            android:id="@+id/space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+        />
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_toRightOf="@id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Next"
+            android:onClick="changeWord"
+        />
+    </RelativeLayout>
+</RelativeLayout>
